@@ -11,9 +11,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'HospitalManagementSystem';
-  CallSomeLogic()
-  {
-    alert("Clicked");
-    console.log("clicked");
+
+  CallSomeLogic() {
+    alert('Clicked');
+    console.log('clicked');
   }
 }
