@@ -1,19 +1,16 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'HospitalManagementSystem';
+  title = 'HManSys';
 
-  CallSomeLogic() {
+  valueToShow: string = "Init Val";
+
+  tryFunction() {
     alert('Clicked');
-    console.log('clicked');
   }
 }
